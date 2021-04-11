@@ -10,7 +10,7 @@ Secondary Color (beige): #E4D8D2
     <link rel="stylesheet" type="text/css" href="css/style.css"
   </head>
   <body>
-   body {
+  body {
      background-color: #ffffff;
      font-family: 'Montserrat Alternates', sans-serif;
      font-size: 16px; /* Sets the font size to 16px */
@@ -38,6 +38,54 @@ Secondary Color (beige): #E4D8D2
    h4 {
      font-size: 1.35em;
      font-weight: 400;
+   }
+
+   img {
+     width: 100%;
+   }
+
+   a {
+     color: #5a6c5a
+     text-decoration: none; /* No underlining */
+   }
+   a:hover,
+   a:focus {
+     color: #e4d8d2
+     text-decoration: underline; /* Underlining when hovering over a link */
+   }
+
+   a:visited { /* visited link */
+     color: #5a6c5a;
+   }
+   a:active { /* selected link */
+   color: #e4d8d2;
+   }
+
+   .button.contact {
+     background-color: transparent;
+     color: #5a6c5a;
+     text-transform: uppercase;
+     border: 2px solid: 5a6c5a
+   }
+
+   .button:hover {
+     background-color: #5a6c5a;
+     color: #ffffff;
+   }
+
+   .button {
+     display: inline-block;
+     background-color: #5a6c5a;
+     color: #ffffff;
+     font-weight: 400;
+     padding: 10px;
+     border-radius: 3px;
+     border-bottom: 2px solid #994c30;
+     transition: 0.2s opacity;
+   }
+   .button:hover {
+     opacity: 0.8;
+     text-decoration: none;
    }
   </body>
 </html>
