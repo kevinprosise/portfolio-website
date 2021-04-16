@@ -141,3 +141,7 @@ Secondary Color (beige): #E4D8D2
      display: inline-block;
      width: 100%;
    }
+
+   #about h1 {
+     text-align: center; /* Centers text */
+   }
