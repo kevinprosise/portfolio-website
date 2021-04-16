@@ -3,6 +3,10 @@ Colors used:
 Primary Color (green): #5A6C5A
 Secondary Color (beige): #E4D8D2
 */
+* {
+  box-sizing: border-box;
+}
+
   body {
      background-color: #ffffff;
      font-family: 'Montserrat Alternates', sans-serif;
@@ -11,6 +15,12 @@ Secondary Color (beige): #E4D8D2
      line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
 
      color: #4a4a4a;
+   }
+
+   header {
+     background-color: #ff44c4;
+     padding: 10px;
+     margin: 10px;
    }
 
    h1 {
@@ -84,3 +94,15 @@ Secondary Color (beige): #E4D8D2
    .button:visted {
      color: #ffffff
    }
+
+   /* Layout Styling */
+
+   .container {
+     padding: 0 15px;
+   }
+
+   .row {
+     margin: 25px 0; /* 25px top and bottom, 0 left and right */
+   }
+
+   
