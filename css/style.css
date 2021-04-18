@@ -18,12 +18,10 @@ Secondary Color (beige): #E4D8D2
    }
 
    header {
-     background-color: #ffffff
+     background-color: #ffffff;
      text-align: center;
      padding: 10px;
      margin: 10px;
-     webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.25);
-     moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.25);
      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.25);
      position: relative;
    }
@@ -53,12 +51,12 @@ Secondary Color (beige): #E4D8D2
    }
 
    a {
-     color: #5a6c5a
+     color: #5a6c5a;
      text-decoration: none; /* No underlining */
    }
-   a:hover,
+   a:hover
    a:focus {
-     color: #e4d8d2
+     color: #e4d8d2;
      text-decoration: underline; /* Underlining when hovering over a link */
    }
 
@@ -73,7 +71,7 @@ Secondary Color (beige): #E4D8D2
      background-color: transparent;
      color: #5a6c5a;
      text-transform: uppercase;
-     border: 2px solid: 5a6c5a
+     border: 2px solid: #5a6c5a;
    }
 
    .button:hover {
@@ -96,8 +94,8 @@ Secondary Color (beige): #E4D8D2
      text-decoration: none;
    }
 
-   .button:visted {
-     color: #ffffff
+   .button:visited {
+     color: #ffffff;
    }
 
    /* Layout Styling */
@@ -131,12 +129,12 @@ Secondary Color (beige): #E4D8D2
      padding: 0 15px;
      text-transform: uppercase;
      font-weight: 700;
-     color: #ffffff
+     color: #ffffff;
      width: 100%
    }
 
    #hero {
-     background-color: #ffffff
+     background-color: #ffffff;
      padding: 20px 0;
      display: inline-block;
      width: 100%;
@@ -144,4 +142,18 @@ Secondary Color (beige): #E4D8D2
 
    #about h1 {
      text-align: center; /* Centers text */
+   }
+
+   .social {
+     text-align:center;
+   }
+
+   .social a {
+     display: inline-block;
+     margin: 0 50px;
+   }
+
+   .social svg{
+     width: 50px;
+     height: auto;
    }
