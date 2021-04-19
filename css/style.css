@@ -129,7 +129,7 @@ Secondary Color (beige): #E4D8D2
      padding: 0 15px;
      text-transform: uppercase;
      font-weight: 700;
-     color: #ffffff;
+     color: #5a6c5a;
      width: 100%
    }
 
@@ -156,4 +156,19 @@ Secondary Color (beige): #E4D8D2
    .social svg{
      width: 50px;
      height: auto;
+   }
+
+   /* Medium Devices (640px and larger) */
+
+   @media only screen and (min-width: 640px){
+   }
+
+   /* Large devices (1024px or larger) */
+
+   @media only screen and (min-width: 1024px) {
+   }
+
+   /* X-large devices (1440px or larger) */
+
+   @media only screen and (min-width: 1440px){
    }
