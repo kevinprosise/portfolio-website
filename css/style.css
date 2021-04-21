@@ -10,7 +10,7 @@ Secondary Color (beige): #E4D8D2
   body {
      background-color: #ffffff;
      font-family: 'Montserrat Alternates', sans-serif;
-     font-size: 16px; /* Sets the font size to 16px */
+     font-size: 18px; /* Sets the font size to 18px */
      font-weight: 300; /* Sets the font weight to 300 */
      line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
 
@@ -84,14 +84,14 @@ Secondary Color (beige): #E4D8D2
      background-color: #5a6c5a;
      color: #ffffff;
      font-weight: 400;
+     text-decoration: none;
      padding: 10px;
      border-radius: 3px;
      border-bottom: 2px solid #994c30;
-     transition: 0.2s opacity;
+     transition-duration: 0.2s opacity;
    }
    .button:hover {
      opacity: 0.8;
-     text-decoration: none;
    }
 
    .button:visited {
@@ -158,17 +158,111 @@ Secondary Color (beige): #E4D8D2
      height: auto;
    }
 
-   /* Medium Devices (640px and larger) */
-
-   @media only screen and (min-width: 640px){
+   .sun {
+     animation-duration: 4s;
+     animation-name: color-change;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
    }
+
+   .cloud-front {
+     animation-duration: 30s;
+     animation-name: cloud-move;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
+   }
+
+   .cloud-back {
+     animation-duration: 30s;
+     animation-name: cloud-move-reverse;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
+   }
+
+   @keyframes color-change {
+     from {fill: #ec655;}
+     to {fill: #f76414;}
+   }
+
+   @keyframes cloud-move {
+     from {transform: translate(0,50px);
+     to {transform: translate(200px,50px);}
+   }
+
+   @keyframes cloud-move-reverse {
+     from {transform: translate(446px,48px);
+     to {transform: translate(100px,48px);}
+   }
+
+   /* Medium Devices (640px and larger) */
+   @media only screen and (min-width: 640px){
+   header {
+     text-align: unset;
+     padding: 20px 0 13px;
+   }
+
+   nav {
+     width: auto;
+     float: right;
+     margin-top: 99px;
+   }
+
+   .col-md-6 {
+     width: 50%;
+   }
+
+   [class*="col-"] {
+     float: left;
+   }
+
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+}
 
    /* Large devices (1024px or larger) */
-
    @media only screen and (min-width: 1024px) {
+   header {
+     text-align: unset;
+     padding: 20px 0 13px;
    }
 
-   /* X-large devices (1440px or larger) */
+   nav {
+     width: auto;
+     float: right;
+     margin-top: 99px;
+   }
 
+   .col-lg-7 {
+     width: 50%;
+   }
+
+   [class*="col-"] {
+     float: left;
+   }
+
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+
+   .container {
+     max-width: 1200px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+}
+
+   /* X-large devices (1440px or larger) */
    @media only screen and (min-width: 1440px){
+   }
+
+   #hero span {
+     display: block;
    }
