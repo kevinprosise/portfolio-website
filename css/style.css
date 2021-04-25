@@ -39,11 +39,16 @@ Secondary Color (beige): #E4D8D2
    h3 {
      font-size: 1.75em;
      font-weight: 400;
+     padding: 50px;
    }
 
    h4 {
      font-size: 1.35em;
      font-weight: 400;
+   }
+
+   p {
+     padding: 50px;
    }
 
    img {
@@ -71,7 +76,7 @@ Secondary Color (beige): #E4D8D2
      background-color: transparent;
      color: #5a6c5a;
      text-transform: uppercase;
-     border: 2px solid: #5a6c5a;
+     border: 2px solid #5a6c5a;
    }
 
    .button:hover {
@@ -144,8 +149,13 @@ Secondary Color (beige): #E4D8D2
      text-align: center; /* Centers text */
    }
 
+   #contact {
+     text-align: center;
+   }
+
    .social {
      text-align:center;
+     padding: 15px;
    }
 
    .social a {
@@ -188,12 +198,12 @@ Secondary Color (beige): #E4D8D2
    }
 
    @keyframes cloud-move {
-     from {transform: translate(0,50px);
+     from {transform: translate(0,50px);}
      to {transform: translate(200px,50px);}
    }
 
    @keyframes cloud-move-reverse {
-     from {transform: translate(446px,48px);
+     from {transform: translate(446px,48px);}
      to {transform: translate(100px,48px);}
    }
 
