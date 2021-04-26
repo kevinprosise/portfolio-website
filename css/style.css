@@ -39,7 +39,7 @@ Secondary Color (beige): #E4D8D2
    h3 {
      font-size: 1.75em;
      font-weight: 400;
-     padding: 50px;
+     padding: 10px;
    }
 
    h4 {
@@ -48,7 +48,7 @@ Secondary Color (beige): #E4D8D2
    }
 
    p {
-     padding: 50px;
+     padding: 10px;
    }
 
    img {
@@ -222,6 +222,7 @@ Secondary Color (beige): #E4D8D2
 
    .col-md-6 {
      width: 50%;
+     padding: 60px;
    }
 
    [class*="col-"] {
