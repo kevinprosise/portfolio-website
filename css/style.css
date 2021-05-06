@@ -186,6 +186,7 @@ Secondary Color (beige): #E4D8D2
      text-align: center; /* Centers text */
    }
 
+
    #contact {
      text-align: center;
    }
@@ -200,7 +201,7 @@ Secondary Color (beige): #E4D8D2
      margin: 0 50px;
    }
 
-   .social svg{
+   .social svg {
      width: 50px;
      height: auto;
    }
