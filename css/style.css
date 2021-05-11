@@ -231,21 +231,6 @@ Secondary Color (beige): #E4D8D2
      animation-timing-function: linear;
    }
 
-   @keyframes color-change {
-     from {fill: #ec655;}
-     to {fill: #f76414;}
-   }
-
-   @keyframes cloud-move {
-     from {transform: translate(0,50px);}
-     to {transform: translate(200px,50px);}
-   }
-
-   @keyframes cloud-move-reverse {
-     from {transform: translate(446px,48px);}
-     to {transform: translate(100px,48px);}
-   }
-
    /* Medium Devices (640px and larger) */
    @media only screen and (min-width: 640px){
    header {
